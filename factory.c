@@ -1,9 +1,7 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-
+#include "installer.h"
+#include "runner.h"
 int main(int argc, char const *argv[])
 {
-    /* code */
+    runFactoryRunPy();
     return 0;
 }
